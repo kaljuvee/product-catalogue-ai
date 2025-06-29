@@ -48,4 +48,24 @@ product_id,product_name,category,price_eur,power_kw,energy_class,availability,de
 47,Küttekeha Fan 1kW,Küttekehad,149.99,1.0,A+,In Stock,Ventilaator-küttekeha
 48,Õhkkardin Mini 1.5m,Õhkkardinad,199.99,0.0,A+,In Stock,Väike õhkkardin
 49,Õhukuivati Basic 10L,Õhukuivatid,349.99,0.0,A++,In Stock,Põhiline õhukuivati
-50,Paigaldustarvikud Economy Set,Paigaldustarvikud,149.99,0.0,N/A,In Stock,Ökonoomsed paigaldustarvikud 
+50,Paigaldustarvikud Economy Set,Paigaldustarvikud,149.99,0.0,N/A,In Stock,Ökonoomsed paigaldustarvikud
+51,Õhksoojuspump Ultra 7kW,Õhksoojuspumbad,1599.99,7.0,A+++,In Stock,Ultra-efektiivne õhksoojuspump
+52,Maasoojuspump Mega 12kW,Maasoojuspumbad,3999.99,12.0,A+++,In Stock,Mega-võimsusega maasoojuspump
+53,Konditsioneer Duo 6kW,Konditsioneerid,999.99,6.0,A+++,In Stock,Kaheosalise konditsioneer
+54,Ventilatsiooniseade Mega 800,Ventilatsioon,1899.99,0.8,A++,In Stock,Mega-ventilatsiooniseade
+55,Päikesepaneel 500W Ultra,Päikesepaneelid,399.99,0.5,A+++,In Stock,Ultra-efektiivne päikesepaneel
+56,Paigaldustarvikud Ultra Set,Paigaldustarvikud,399.99,0.0,N/A,In Stock,Ultra-kvaliteetsed paigaldustarvikud
+57,Küttekeha Ultra 3kW,Küttekehad,399.99,3.0,A++,In Stock,Ultra-võimsusega küttekeha
+58,Õhksoojuspump Budget 1.5kW,Õhksoojuspumbad,399.99,1.5,A+,In Stock,Odav õhksoojuspump
+59,Konditsioneer Budget 1.8kW,Konditsioneerid,299.99,1.8,A+,In Stock,Odav konditsioneer
+60,Paigaldustarvikud Budget Set,Paigaldustarvikud,99.99,0.0,N/A,In Stock,Odavad paigaldustarvikud
+61,Küttekeha Budget 0.8kW,Küttekehad,89.99,0.8,A+,In Stock,Odav küttekeha
+62,Päikesepaneel 250W Budget,Päikesepaneelid,149.99,0.25,A+,In Stock,Odav päikesepaneel
+63,Ventilatsiooniseade Budget 100,Ventilatsioon,399.99,0.1,A+,In Stock,Odav ventilatsiooniseade
+64,Õhksoojuspump Luxury 10kW,Õhksoojuspumbad,2499.99,10.0,A+++,In Stock,Luksuslik õhksoojuspump
+65,Maasoojuspump Luxury 15kW,Maasoojuspumbad,4999.99,15.0,A+++,In Stock,Luksuslik maasoojuspump
+66,Konditsioneer Luxury 8kW,Konditsioneerid,1499.99,8.0,A+++,In Stock,Luksuslik konditsioneer
+67,Ventilatsiooniseade Luxury 1000,Ventilatsioon,2499.99,1.0,A+++,In Stock,Luksuslik ventilatsiooniseade
+68,Päikesepaneel 600W Luxury,Päikesepaneelid,599.99,0.6,A+++,In Stock,Luksuslik päikesepaneel
+69,Paigaldustarvikud Luxury Set,Paigaldustarvikud,599.99,0.0,N/A,In Stock,Luksuslikud paigaldustarvikud
+70,Küttekeha Luxury 4kW,Küttekehad,599.99,4.0,A+++,In Stock,Luksuslik küttekeha 
