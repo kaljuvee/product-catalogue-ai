@@ -1,0 +1,51 @@
+product_id,product_name,category,price_eur,power_kw,energy_class,availability,description
+1,Õhksoojuspump Premium 5kW,Õhksoojuspumbad,1299.99,5.0,A++,In Stock,Õhksoojuspump kõrge efektiivsusega, sobib kuni 150m² korteritele
+2,Maasoojuspump Eco 8kW,Maasoojuspumbad,2899.99,8.0,A+++,In Stock,Maasoojuspump maaenergia kasutamisega, väga ökonoomsed kulud
+3,Õhk-vesisoojuspump Comfort 12kW,Õhk-vesisoojuspumbad,1899.99,12.0,A++,In Stock,Õhk-vesisoojuspump suurte objektide jaoks
+4,Ventilatsioonisoojuspump Fresh 3kW,Ventilatsioonisoojuspumbad,899.99,3.0,A+,In Stock,Ventilatsioonisoojuspump koos soojuse taaskasutusega
+5,Konditsioneer Split Premium,Konditsioneerid,599.99,3.5,A++,In Stock,Split-konditsioneer kõrge efektiivsusega ja vaikne töö
+6,Ventilatsiooniseade Pro 500,Ventilatsioon,1299.99,0.5,A+,In Stock,Professionaalne ventilatsiooniseade ärihoonetele
+7,Kesktolmuimeja PowerClean,Kesktolmuimejad,2499.99,2.0,A++,In Stock,Kesktolmuimeja suurtele elamutele ja kontoritele
+8,Päikesepaneel 400W Premium,Päikesepaneelid,299.99,0.4,A++,In Stock,Kõrge efektiivsusega päikesepaneel
+9,Küttejaotus SmartFlow,Küttejaotus,799.99,0.0,A+,In Stock,Tark küttejaotussüsteem koos termostaatidega
+10,Veeboiler 200L Comfort,Veeboilerid,899.99,0.0,A++,In Stock,Suur veeboiler perekondadele
+11,Akumulatsioonipaak 500L,Akumulatsioonipaagid,1599.99,0.0,A+,In Stock,Suur akumulatsioonipaak soojuse salvestamiseks
+12,Elektrikatel EcoHeat 15kW,Elektrikatlad,1899.99,15.0,A++,In Stock,Elektrikatel suurtele majadele
+13,Küttekeha OilRad 2kW,Küttekehad,299.99,2.0,A+,In Stock,Õlikiudküttekeha lisakütteks
+14,Õhkkardin Premium 3m,Õhkkardinad,399.99,0.0,A+,In Stock,Õhkkardin suurtele akendele
+15,Õhukuivati DryPro 20L,Õhukuivatid,599.99,0.0,A++,In Stock,Õhukuivati niiskete ruumide jaoks
+16,Paigaldustarvikud Basic Set,Paigaldustarvikud,199.99,0.0,N/A,In Stock,Põhilised paigaldustarvikud soojuspumpadele
+17,Keemiakaubad Refrigerant R32,Keemiakaubad,89.99,0.0,N/A,In Stock,Refrigerant R32 5kg balloon
+18,Õhksoojuspump Standard 3kW,Õhksoojuspumbad,899.99,3.0,A+,In Stock,Õhksoojuspump väikestele korteritele
+19,Maasoojuspump Deluxe 10kW,Maasoojuspumbad,3499.99,10.0,A+++,In Stock,Maasoojuspump luksusmajadele
+20,Õhk-vesisoojuspump Max 15kW,Õhk-vesisoojuspumbad,2299.99,15.0,A++,In Stock,Õhk-vesisoojuspump väga suurtele objektidele
+21,Ventilatsioonisoojuspump Eco 2kW,Ventilatsioonisoojuspumbad,699.99,2.0,A+,In Stock,Väike ventilatsioonisoojuspump
+22,Konditsioneer Inverter Pro,Konditsioneerid,799.99,4.0,A+++,In Stock,Inverter-konditsioneer kõrge efektiivsusega
+23,Ventilatsiooniseade Home 300,Ventilatsioon,899.99,0.3,A+,In Stock,Ventilatsiooniseade eramajadele
+24,Kesktolmuimeja Compact 200,Kesktolmuimejad,1599.99,1.5,A++,In Stock,Kompaktne kesktolmuimeja
+25,Päikesepaneel 350W Standard,Päikesepaneelid,249.99,0.35,A++,In Stock,Standardne päikesepaneel
+26,Küttejaotus BasicFlow,Küttejaotus,599.99,0.0,A+,In Stock,Põhiline küttejaotussüsteem
+27,Veeboiler 150L Standard,Veeboilerid,699.99,0.0,A++,In Stock,Standardne veeboiler
+28,Akumulatsioonipaak 300L Compact,Akumulatsioonipaagid,1199.99,0.0,A+,In Stock,Kompaktne akumulatsioonipaak
+29,Elektrikatel Standard 10kW,Elektrikatlad,1299.99,10.0,A++,In Stock,Standardne elektrikatel
+30,Küttekeha Convector 1.5kW,Küttekehad,199.99,1.5,A+,In Stock,Convector-küttekeha
+31,Õhkkardin Standard 2m,Õhkkardinad,299.99,0.0,A+,In Stock,Standardne õhkkardin
+32,Õhukuivati Compact 15L,Õhukuivatid,449.99,0.0,A++,In Stock,Kompaktne õhukuivati
+33,Paigaldustarvikud Pro Set,Paigaldustarvikud,299.99,0.0,N/A,In Stock,Professionaalne paigaldustarvikute komplekt
+34,Keemiakaubad Refrigerant R410A,Keemiakaubad,79.99,0.0,N/A,In Stock,Refrigerant R410A 3kg balloon
+35,Õhksoojuspump Mini 2kW,Õhksoojuspumbad,699.99,2.0,A+,In Stock,Väike õhksoojuspump
+36,Maasoojuspump Compact 6kW,Maasoojuspumbad,2199.99,6.0,A+++,In Stock,Kompaktne maasoojuspump
+37,Õhk-vesisoojuspump Standard 8kW,Õhk-vesisoojuspumbad,1499.99,8.0,A++,In Stock,Standardne õhk-vesisoojuspump
+38,Ventilatsioonisoojuspump Home 1.5kW,Ventilatsioonisoojuspumbad,549.99,1.5,A+,In Stock,Ventilatsioonisoojuspump eramajadele
+39,Konditsioneer Basic 2.5kW,Konditsioneerid,449.99,2.5,A++,In Stock,Põhiline konditsioneer
+40,Ventilatsiooniseade Compact 200,Ventilatsioon,699.99,0.2,A+,In Stock,Kompaktne ventilatsiooniseade
+41,Kesktolmuimeja Mini 150,Kesktolmuimejad,1199.99,1.0,A++,In Stock,Väike kesktolmuimeja
+42,Päikesepaneel 300W Economy,Päikesepaneelid,199.99,0.3,A++,In Stock,Ökonoomsem päikesepaneel
+43,Küttejaotus MiniFlow,Küttejaotus,449.99,0.0,A+,In Stock,Väike küttejaotussüsteem
+44,Veeboiler 100L Compact,Veeboilerid,549.99,0.0,A++,In Stock,Kompaktne veeboiler
+45,Akumulatsioonipaak 200L Basic,Akumulatsioonipaagid,899.99,0.0,A+,In Stock,Põhiline akumulatsioonipaak
+46,Elektrikatel Compact 8kW,Elektrikatlad,999.99,8.0,A++,In Stock,Kompaktne elektrikatel
+47,Küttekeha Fan 1kW,Küttekehad,149.99,1.0,A+,In Stock,Ventilaator-küttekeha
+48,Õhkkardin Mini 1.5m,Õhkkardinad,199.99,0.0,A+,In Stock,Väike õhkkardin
+49,Õhukuivati Basic 10L,Õhukuivatid,349.99,0.0,A++,In Stock,Põhiline õhukuivati
+50,Paigaldustarvikud Economy Set,Paigaldustarvikud,149.99,0.0,N/A,In Stock,Ökonoomsed paigaldustarvikud 
