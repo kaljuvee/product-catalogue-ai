@@ -4,6 +4,8 @@ from langchain_openai import ChatOpenAI
 from langchain_experimental.agents import create_pandas_dataframe_agent
 import os
 from dotenv import load_dotenv
+from langchain.agents.agent_types import AgentType
+import re
 
 # --- LOAD ENVIRONMENT ---
 load_dotenv()
@@ -25,7 +27,13 @@ df = load_products()
 
 # --- LANGCHAIN AGENT ---
 llm = ChatOpenAI(temperature=0, model="gpt-4o-mini", openai_api_key=OPENAI_API_KEY)
-agent = create_pandas_dataframe_agent(llm, df, verbose=False, allow_dangerous_code=True)
+agent = create_pandas_dataframe_agent(
+    llm,
+    df,
+    verbose=True,
+    allow_dangerous_code=True,
+    agent_type=AgentType.OPENAI_FUNCTIONS,
+)
 
 # --- SUGGESTIONS ---
 def get_suggestions():
@@ -78,11 +86,38 @@ if st.button("Saada") or clicked_suggestion:
     query = user_input.strip() if not clicked_suggestion else clicked_suggestion
     if query:
         st.session_state.chat_history.append({"role": "user", "content": query})
-        with st.spinner("Otsin vastust..."):
-            try:
-                response = agent.run(f"Vasta eesti keeles: {query}")
-            except Exception as e:
-                response = f"Vabandust, tekkis viga: {e}"
+        response = None
+        # --- SIMPLE FALLBACKS ---
+        # Price filter: e.g. "tooteid alla 500 euro"
+        price_match = re.search(r"alla (\d+)[\s-]*euro", query.lower())
+        if price_match:
+            price_limit = float(price_match.group(1))
+            filtered = df[df['price_eur'] < price_limit]
+            if not filtered.empty:
+                response = f"Leidsin {len(filtered)} toodet alla {int(price_limit)} euro:\n\n"
+                for _, row in filtered.iterrows():
+                    response += f"**{row['product_name']}** — {row['price_eur']} €\n"
+            else:
+                response = f"Alla {int(price_limit)} euro tooteid ei leitud."
+        # Category filter: e.g. "näita päikesepaneelid"
+        elif any(str(cat).lower() in query.lower() for cat in df['category'].unique()):
+            for cat in df['category'].unique():
+                if str(cat).lower() in query.lower():
+                    filtered = df[df['category'].str.lower() == str(cat).lower()]
+                    if not filtered.empty:
+                        response = f"Leidsin {len(filtered)} toodet kategooriast '{cat}':\n\n"
+                        for _, row in filtered.iterrows():
+                            response += f"**{row['product_name']}** — {row['price_eur']} €\n"
+                    else:
+                        response = f"Kategoorias '{cat}' tooteid ei leitud."
+                    break
+        # Otherwise, use the agent
+        if not response:
+            with st.spinner("Otsin vastust..."):
+                try:
+                    response = agent.invoke(f"Vasta eesti keeles: {query}")
+                except Exception as e:
+                    response = f"Vabandust, tekkis viga: {e}"
         st.session_state.chat_history.append({"role": "assistant", "content": response})
         st.rerun()
 
